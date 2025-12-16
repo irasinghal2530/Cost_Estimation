@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+myenv/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & models
+*.log
+*.pkl
+*.joblib
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+
+#data
+data/
+
+#models
+models/
+
+info.txt
+
+#output
+out/
+
+src/models/
