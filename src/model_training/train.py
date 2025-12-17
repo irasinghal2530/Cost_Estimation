@@ -186,7 +186,7 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.base import BaseEstimator
 import joblib
 import pandas as pd
-from preprocessing import build_preprocessing_pipeline, fit_preprocessor
+from src.model_training.preprocessing import build_preprocessing_pipeline, fit_preprocessor
 
 def train_model(X_train: pd.DataFrame, y_train: pd.Series, 
                 categorical_cols: list, numeric_cols: list, 
